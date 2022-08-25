@@ -53,7 +53,7 @@ const ToastContainer: React.FC<CToastContainerProps> = ({ toast, hiddenID }) => 
 			});
 			typeof callback === 'function' && callback(id, position);
 		};
-	}
+	};
 
 	const rows = ['top', 'bottom'];
 	const groups = ['Left', 'Center', 'Right'];

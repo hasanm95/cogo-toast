@@ -68,10 +68,10 @@ cogoToast.error('This is a error message');
 
 ```javascript
 cogoToast.info(
-  <div>
-    <b>Awesome!</b>
-    <div>Isn't it?</div>
-  </div>,
+	<div>
+		<b>Awesome!</b>
+		<div>Isn't it?</div>
+	</div>,
 );
 ```
 
@@ -83,7 +83,7 @@ This can be useful to do some action when the toast has completed showing.
 
 ```javascript
 cogoToast.loading('Loading your data...').then(() => {
-  cogoToast.success('Data Successfully Loaded');
+	cogoToast.success('Data Successfully Loaded');
 });
 ```
 
@@ -91,9 +91,9 @@ cogoToast.loading('Loading your data...').then(() => {
 
 ```javascript
 const { hide } = cogoToast.success('This is a success message.', {
-  onClick: () => {
-    hide();
-  },
+	onClick: () => {
+		hide();
+	},
 });
 ```
 
@@ -109,16 +109,16 @@ cogoToast.info('This is an info message', options);
 
 Here's a list of all the available options, to customize the toast to your needs.
 
-|    Options    |                                               Type                                               |                          Default                           |
-| :-----------: | :----------------------------------------------------------------------------------------------: | :--------------------------------------------------------: |
-|   hideAfter   |                                        Number in Seconds                                         | `3` <br />(Can be `0` to disable auto-hiding of the toast) |
-|   position    | `'top-left', 'top-center', 'top-right',` <br /> `'bottom-left', 'bottom-center', 'bottom-right'` |                       `'top-center'`                       |
-|    heading    |                                              String                                              |                            `''`                            |
-|  renderIcon   |                                       Function<ReactNode>                                        |                   Icon Based on the Type                   |
-|      bar      |           Object <br /> `{ size: '2px', style: 'solid/dashed/dotted', color: '#hex' }`           |                     Based on the Type                      |
-| onClick() |                                             Function                                             |                           `null`                           |
-| role |                                             aria-role                                             |                           `status`                           |
-| toastContainerID |                   The dom element in which the toast container is added                                         |                           `ct-container`                           |
+|     Options      |                                               Type                                               |                          Default                           |
+| :--------------: | :----------------------------------------------------------------------------------------------: | :--------------------------------------------------------: |
+|    hideAfter     |                                        Number in Seconds                                         | `3` <br />(Can be `0` to disable auto-hiding of the toast) |
+|     position     | `'top-left', 'top-center', 'top-right',` <br /> `'bottom-left', 'bottom-center', 'bottom-right'` |                       `'top-center'`                       |
+|     heading      |                                              String                                              |                            `''`                            |
+|    renderIcon    |                                       Function<ReactNode>                                        |                   Icon Based on the Type                   |
+|       bar        |           Object <br /> `{ size: '2px', style: 'solid/dashed/dotted', color: '#hex' }`           |                     Based on the Type                      |
+|    onClick()     |                                             Function                                             |                           `null`                           |
+|       role       |                                            aria-role                                             |                          `status`                          |
+| toastContainerID |                      The dom element in which the toast container is added                       |                       `ct-container`                       |
 
 ### Custom Styling
 
@@ -160,6 +160,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
 
 <!-- markdownlint-enable -->
 <!-- prettier-ignore-end -->
+
 <!-- ALL-CONTRIBUTORS-LIST:END -->
 
 This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification. Contributions of any kind welcome!
