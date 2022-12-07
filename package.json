@@ -1,5 +1,5 @@
 {
-	"name": "cogo-toast",
+	"name": "@hasanm95/cogo-toast",
 	"description": "Beautiful, Zero Configuration, Toast Messages - Built with React",
 	"version": "4.2.4",
 	"license": "MIT",
@@ -75,11 +75,11 @@
 	],
 	"homepage": "https://cogoport.github.io/cogo-toast/",
 	"bugs": {
-		"url": "https://github.com/Cogoport/cogo-toast/issues"
+		"url": "https://github.com/hasanm95/cogo-toast/issues"
 	},
 	"repository": {
 		"type": "git",
-		"url": "git+https://github.com/Cogoport/cogo-toast.git"
+		"url": "https://github.com/hasanm95/cogo-toast.git"
 	},
 	"keywords": [
 		"react",
